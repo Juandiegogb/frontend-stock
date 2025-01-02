@@ -1,0 +1,21 @@
+services:
+  front1:
+    image: juandi03/dw-frontend
+    ports: 
+      - 3000:3000
+  front2:
+    image: juandi03/dw-frontend
+    ports: 
+      - 3001:3000
+  front3:
+    image: juandi03/dw-frontend
+    ports: 
+      - 3002:3000
+  front4:
+    image: juandi03/dw-frontend
+    ports: 
+      - 3003:3000
+  front5:
+    image: juandi03/dw-frontend:1.0
+    ports: 
+      - 80:3000
